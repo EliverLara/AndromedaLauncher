@@ -82,7 +82,7 @@ Item {
       width: iconSize
       height: width
       ColorOverlay {
-        visible: plasmoid.configuration.theming != 0
+        visible: true
         anchors.fill: powerImage
         source: powerImage
         color: main.textColor

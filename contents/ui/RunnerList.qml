@@ -111,7 +111,7 @@ PlasmaExtras.ScrollArea {
               font.pixelSize: 12 * PlasmaCore.Units.devicePixelRatio
             }
             ColorOverlay {
-              visible: plasmoid.configuration.theming != 0
+              visible: true
               anchors.fill: image
               source: image
               color: main.textColor

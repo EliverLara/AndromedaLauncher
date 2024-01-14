@@ -46,7 +46,6 @@ Kirigami.FormLayout {
     property color cfg_indicatorColor: plasmoid.configuration.indicatorColor
     property bool cfg_enableGreeting: plasmoid.configuration.indicatorColor
     property alias cfg_defaultPage: defaultPage.currentIndex
-    property alias cfg_theming: theming.currentIndex
     property alias cfg_useExtraRunners: useExtraRunners.checked
     property alias cfg_customGreeting: customGreeting.text
     property alias cfg_floating: floating.checked
@@ -306,17 +305,5 @@ Kirigami.FormLayout {
         id: useExtraRunners
         Kirigami.FormData.label: i18n("Search:")
         text: i18n("Expand search to bookmarks, files and emails")
-    }
-    Item {
-        Kirigami.FormData.isSection: true
-    }
-    ComboBox {
-        id: theming
-        Kirigami.FormData.label: i18n("Theming:")
-        model: [
-        i18n("Dark (Default)"),
-        i18n("Light"),
-        i18n("Matching"),
-        ]
     }
 }
