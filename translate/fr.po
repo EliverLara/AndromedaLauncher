@@ -133,3 +133,45 @@ msgstr "Correspondant"
 
 msgid "Search your computer"
 msgstr "Rechercher dans votre ordinateur"
+
+msgid "Hi, "
+msgstr "Bonjour, "
+
+msgid "All apps"
+msgstr "Toutes les applications"
+
+msgid "Glow"
+msgstr "Éclat :"
+
+msgid "Glow color:"
+msgstr "Couleur de l'éclat :"
+
+msgid "Purple (Default)"
+msgstr "Violet (Par défaut)"
+
+msgid "Blue"
+msgstr "Bleu"
+
+msgid "Red"
+msgstr "Rouge"
+
+msgid "Choose..."
+msgstr "Choisir..."
+
+msgid "Clear Icon"
+msgstr "Effacer l'icône"
+
+msgid "Use system font settings"
+msgstr "Utiliser les paramètres de police du système :"
+
+msgid "Add to Favorites"
+msgstr "Ajouter aux favoris"
+
+msgid "Remove from Favorites"
+msgstr "Supprimer des favoris"
+
+msgid "Back"
+msgstr "Retour"
+
+msgid "Edit Applications..."
+msgstr "Éditer les applications..."
