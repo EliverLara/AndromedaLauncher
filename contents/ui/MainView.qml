@@ -172,12 +172,7 @@ Item {
         height: width
         anchors.verticalCenter: parent.verticalCenter
         source: 'icons/feather/search.svg'
-        ColorOverlay {
-          visible: true
-          anchors.fill: searchIcon
-          source: searchIcon
-          color: main.textColor
-        }
+       
       }
       Rectangle {
         x: 45 * PlasmaCore.Units.devicePixelRatio
@@ -271,12 +266,6 @@ Item {
       font.pointSize: textSize
     }
 
-    ColorOverlay {
-      visible: true
-      anchors.fill: headerLabel
-      source: headerLabel
-      color: main.textColor
-    }
   }
   // Show all app buttons
   PlasmaComponents.Button  {
