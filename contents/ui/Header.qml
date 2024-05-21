@@ -47,12 +47,7 @@ Item {
       source: "icons/feather/settings.svg"
       width: iconSize
       height: width
-      ColorOverlay {
-        visible: plasmoid.configuration.theming != 0
-        anchors.fill: settingsImage
-        source: settingsImage
-        color: main.textColor
-      }
+   
     }
     onClicked: {
       KQuickAddons.KCMShell.openSystemSettings("kcm_quick")
@@ -78,12 +73,6 @@ Item {
       source: "icons/feather/power.svg"
       width: iconSize
       height: width
-      ColorOverlay {
-        visible: true
-        anchors.fill: powerImage
-        source: powerImage
-        color: main.textColor
-      }
     }
     onClicked: {
       pmEngine.performOperation("requestShutDown")
