@@ -210,7 +210,7 @@ Item {
     }
 
     Component.onCompleted: {
-        plasmoid.setAction("menuedit", i18n("Edit Applications..."));
+        plasmoid.setAction("menuedit", i18n("Edit Applications..."), "kmenuedit");
 
         rootModel.refreshed.connect(reset);
 
