@@ -1,6 +1,8 @@
 [Desktop Entry]
 Name=Andromeda Launcher
+Name[fr]=Lanceur Andromède
 Comment=A modern Launcher for plasma!
+Comment[fr]=Un lanceur moderne pour plasma !
 
 Type=Service
 Icon=start-here-kde
