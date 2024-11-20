@@ -133,3 +133,45 @@ msgstr ""
 
 msgid "Search your computer"
 msgstr ""
+
+msgid "Hi, "
+msgstr ""
+
+msgid "All apps"
+msgstr ""
+
+msgid "Glow:"
+msgstr ""
+
+msgid "Glow color:"
+msgstr ""
+
+msgid "Purple (Default)"
+msgstr ""
+
+msgid "Blue"
+msgstr ""
+
+msgid "Red"
+msgstr ""
+
+msgid "Choose..."
+msgstr ""
+
+msgid "Clear Icon"
+msgstr ""
+
+msgid "Use system font settings"
+msgstr ""
+
+msgid "Add to Favorites"
+msgstr ""
+
+msgid "Remove from Favorites"
+msgstr ""
+
+msgid "Back"
+msgstr ""
+
+msgid "Edit Applications..."
+msgstr ""
