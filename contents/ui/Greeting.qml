@@ -7,7 +7,7 @@ Item {
     readonly property var textWidth: nameLabel.width
     Text {
         id: nameLabel
-        text: plasmoid.configuration.enableGreeting && plasmoid.configuration.customGreeting ? plasmoid.configuration.customGreeting : plasmoid.configuration.enableGreeting ? 'Hi, ' + kuser.fullName : i18n("%1@%2", kuser.loginName, kuser.host)
+        text: plasmoid.configuration.enableGreeting && plasmoid.configuration.customGreeting ? plasmoid.configuration.customGreeting : plasmoid.configuration.enableGreeting ? i18n("Hi, ") + kuser.fullName : i18n("%1@%2", kuser.loginName, kuser.host)
         color: textColor
         font.family: textFont
         font.pixelSize: textSize
