@@ -24,6 +24,7 @@ import QtQuick 2.12
 import QtQuick.Layouts 1.12
 import org.kde.plasma.core 2.0 as PlasmaCore
 import org.kde.plasma.components 3.0 as PlasmaComponents
+import org.kde.plasma.plasmoid 2.0
 
 PlasmaCore.Dialog {
     id: root
@@ -32,8 +33,10 @@ PlasmaCore.Dialog {
     flags: Qt.WindowStaysOnTopHint
 
     location: plasmoid.configuration.floating || plasmoid.configuration.launcherPosition == 2 ? "Floating" : plasmoid.location
-
+    
     hideOnWindowDeactivate: true
+
+    Plasmoid.status: root.visible ? PlasmaCore.Types.RequiresAttentionStatus : PlasmaCore.Types.PassiveStatus
 
     onVisibleChanged: {
         if (!visible) {
