@@ -1,0 +1,136 @@
+# Translation of MMcK Launcher in LANGUAGE
+# Copyright (C) 2022
+# This file is distributed under the same license as the MMcK Launcher package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mmcklauncher\n"
+"Report-Msgid-Bugs-To: https://github.com/snoutbug/mmcklauncher\n"
+"POT-Creation-Date: 2022-03-07 20:42-0000\n"
+"PO-Revision-Date: 2024-01-01 20:17+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+
+msgid "Settings"
+msgstr "Configuración"
+
+msgid "Power Off"
+msgstr "Apagar"
+
+msgid "Favorite Apps"
+msgstr "Aplicaciones favoritas"
+
+msgid "General"
+msgstr "General"
+
+msgid "Default Page:"
+msgstr "Página predeterminada:"
+
+msgid "All"
+msgstr "Todo"
+
+msgid "Developement"
+msgstr "Desarrollo"
+
+msgid "Games"
+msgstr "Juegos"
+
+msgid "Graphics"
+msgstr "Gráficos"
+
+msgid "Internet"
+msgstr "Internet"
+
+msgid "Multimedia"
+msgstr "Multimedia"
+
+msgid "Office"
+msgstr "Ofimática"
+
+msgid "Science & Math"
+msgstr "Ciencia y matemáticas"
+
+msgid "System"
+msgstr "Sistema"
+
+msgid "Utilities"
+msgstr "Utilidades"
+
+msgid "Lost & Found"
+msgstr "Cajón desastre"
+
+msgid "Icon:"
+msgstr "Icono:"
+
+msgid "Indicator:"
+msgstr "Indicador:"
+
+msgid "Enabled"
+msgstr "Activado"
+
+msgid "Indicator Color:"
+msgstr "Color del indicador:"
+
+msgid "Please choose a color"
+msgstr "Por favor, escoge un color"
+
+msgid "Greeting:"
+msgstr "Saludo:"
+
+msgid "Custom Greeting Text:"
+msgstr "Texto personalizado del saludo:"
+
+msgid "No custom greeting set"
+msgstr "Sin saludo personalizado"
+
+msgid "Launcher Positioning:"
+msgstr "Posicionamiento del lanzador:"
+
+msgid "Default"
+msgstr "Por defecto"
+
+msgid "Horizontal Center"
+msgstr "Centrado horizontal"
+
+msgid "Screen Center"
+msgstr "Centrado en la pantalla"
+
+msgid "Floating"
+msgstr "Flotante"
+
+msgid "Offset Screen Edge (0 is Default):"
+msgstr "Offset al borde de la pantalla (0 por defecto):"
+
+msgid "Offset Panel (0 is Default):"
+msgstr "Offset del panel (0 por defecto)"
+
+msgid "All Applications (Default)"
+msgstr "Todas las aplicaciones (Por defecto)"
+
+msgid "Search:"
+msgstr "Buscar:"
+
+msgid "Expand search to bookmarks, files and emails"
+msgstr "Ampliar búsqueda a marcadores, ficheros y correos electrónicos"
+
+msgid "Theming:"
+msgstr "Tema:"
+
+msgid "Dark (Default)"
+msgstr "Oscuro (Por defecto)"
+
+msgid "Light"
+msgstr "Claro"
+
+msgid "Matching"
+msgstr "Coincidente"
+
+msgid "Search your computer"
+msgstr "Busca en tu equipo"
