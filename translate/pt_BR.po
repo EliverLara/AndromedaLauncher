@@ -1,0 +1,135 @@
+# Translation of MMcK Launcher in Portuguese (Brazil)
+# Copyright (C) 2022
+# This file is distributed under the same license as the MMcK Launcher package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mmcklauncher\n"
+"Report-Msgid-Bugs-To: https://github.com/snoutbug/mmcklauncher\n"
+"POT-Creation-Date: 2022-03-07 20:42-0000\n"
+"PO-Revision-Date: 2025-08-31 15:43-0300\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Portuguese (Brazil) <LL@li.org>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Settings"
+msgstr "Configurações"
+
+msgid "Power Off"
+msgstr "Desligar"
+
+msgid "Favorite Apps"
+msgstr "Aplicativos Favoritos"
+
+msgid "General"
+msgstr "Geral"
+
+msgid "Default Page:"
+msgstr "Página Padrão:"
+
+msgid "All"
+msgstr "Todos"
+
+msgid "Developement"
+msgstr "Desenvolvimento"
+
+msgid "Games"
+msgstr "Jogos"
+
+msgid "Graphics"
+msgstr "Gráficos"
+
+msgid "Internet"
+msgstr "Internet"
+
+msgid "Multimedia"
+msgstr "Multimídia"
+
+msgid "Office"
+msgstr "Escritório"
+
+msgid "Science & Math"
+msgstr "Ciência e Matemática"
+
+msgid "System"
+msgstr "Sistema"
+
+msgid "Utilities"
+msgstr "Utilitários"
+
+msgid "Lost & Found"
+msgstr "Achados e Perdidos"
+
+msgid "Icon:"
+msgstr "Ícone:"
+
+msgid "Indicator:"
+msgstr "Indicador:"
+
+msgid "Enabled"
+msgstr "Habilitado"
+
+msgid "Indicator Color:"
+msgstr "Cor do Indicador:"
+
+msgid "Please choose a color"
+msgstr "Por favor, escolha uma cor"
+
+msgid "Greeting:"
+msgstr "Saudação:"
+
+msgid "Custom Greeting Text:"
+msgstr "Texto de Saudação Personalizado:"
+
+msgid "No custom greeting set"
+msgstr "Nenhuma saudação personalizada definida"
+
+msgid "Launcher Positioning:"
+msgstr "Posicionamento do Lançador:"
+
+msgid "Default"
+msgstr "Padrão"
+
+msgid "Horizontal Center"
+msgstr "Centro Horizontal"
+
+msgid "Screen Center"
+msgstr "Centro da Tela"
+
+msgid "Floating"
+msgstr "Flutuante"
+
+msgid "Offset Screen Edge (0 is Default):"
+msgstr "Deslocamento da Borda da Tela (0 é Padrão):"
+
+msgid "Offset Panel (0 is Default):"
+msgstr "Deslocamento do Painel (0 é Padrão):"
+
+msgid "All Applications (Default)"
+msgstr "Todos os Aplicativos (Padrão)"
+
+msgid "Search:"
+msgstr "Pesquisa:"
+
+msgid "Expand search to bookmarks, files and emails"
+msgstr "Expandir pesquisa para favoritos, arquivos e e-mails"
+
+msgid "Theming:"
+msgstr "Tema:"
+
+msgid "Dark (Default)"
+msgstr "Escuro (Padrão)"
+
+msgid "Light"
+msgstr "Claro"
+
+msgid "Matching"
+msgstr "Correspondente"
+
+msgid "Search your computer"
+msgstr "Pesquisar no seu computador"
