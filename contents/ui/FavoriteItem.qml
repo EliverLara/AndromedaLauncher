@@ -33,6 +33,9 @@ import "../code/tools.js" as Tools
 Item {
   id: favItem
 
+  required property var model
+  required property int index
+  required property url url
   property var triggerModel
 
   width: root.cellSizeWidth
@@ -46,6 +49,11 @@ Item {
 
   property bool hasActionList: ((model.favoriteId !== null)
       || (("hasActionList" in model) && (model.hasActionList !== null)))    
+
+  property Item dragIconItem: appicon
+  readonly property Flickable view: ListView.view ?? GridView.view
+
+  z: Drag.active ? 4 : 1
 
   function openActionMenu(visualParent, x, y) {
     aboutToShowActionMenu(actionMenu);
@@ -66,6 +74,26 @@ Item {
       if (Tools.triggerAction(triggerModel, model.index, actionId, actionArgument) === true) {
             kicker.expanded = false;
         }
+  }
+
+  function performDrag(handler: DragHandler): void {
+    if (!handler.active) {
+      kicker.dragSource.Drag.active = false;
+      kicker.dragSource.Drag.imageSource = "";
+      kicker.dragSource.sourceItem = null;
+      return;
+    }
+    favItem.dragIconItem.grabToImage(result => {
+      if (!handler.active) {
+        return;
+      }
+      kicker.dragSource.sourceItem = favItem;
+      kicker.dragSource.Drag.imageSource = result.url;
+      kicker.dragSource.Drag.mimeData = {
+        "text/uri-list" : [favItem.url]
+      };
+      kicker.dragSource.Drag.active = handler.active;
+    });
   }
 
  Kirigami.Icon {
@@ -177,19 +205,6 @@ Item {
           // built into QQuickListView::setCurrentIndex() already
           grid.currentIndex = index        
       }
-
-      onPositionChanged: {
-        isDraging = pressed
-        if (pressed){
-          if ("pluginName" in model) {
-            dragHelper.startDrag(kicker, model.url, model.decoration,
-                "text/x-plasmoidservicename", model.pluginName);
-          } else {
-            kicker.dragSource = favItem;
-            dragHelper.startDrag(kicker, model.url, model.icon);
-          }
-        }
-      }
   }
   ActionMenu {
       id: actionMenu
@@ -202,5 +217,13 @@ Item {
   Transition {
     id: highlight
     ColorAnimation {duration: 100 }
+  }
+
+  DragHandler {
+      id: dragHandler
+      acceptedDevices: PointerDevice.Mouse | PointerDevice.TouchPad | PointerDevice.Stylus
+      enabled: favItem.dragIconItem !== null
+      target: null // Using this Item fixes drag and drop causing delegates to reset to a 0 X position and overlapping each other.
+      onActiveChanged: favItem.performDrag(this)
   }
 }

@@ -47,8 +47,6 @@ PlasmoidItem {
     compactRepresentation: null
     fullRepresentation: compactRepresentation
 
-    property Item dragSource: null
-
     property QtObject globalFavorites: rootModel.favoritesModel
     property QtObject systemFavorites: rootModel.systemFavoritesModel
 
@@ -146,10 +144,10 @@ PlasmoidItem {
         mergeResults: true
     }
 
-    Kicker.DragHelper {
-        id: dragHelper
-
-        dragIconSize: Kirigami.Units.iconSizes.medium
+    readonly property Item dragSource: Item {
+        id: dragSource // BUG 449426
+        property Item sourceItem
+        Drag.dragType: Drag.Automatic
     }
 
     Kicker.ProcessRunner {
@@ -212,7 +210,5 @@ PlasmoidItem {
     Component.onCompleted: {
         //plasmoid.setAction("menuedit", i18n("Edit Applications..."));
         rootModel.refreshed.connect(reset);
-
-        dragHelper.dropped.connect(resetDragSource);
     }
 }
