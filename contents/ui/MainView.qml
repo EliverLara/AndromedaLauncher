@@ -152,7 +152,7 @@ Item {
           sortingImage.source = currentCategory.icon;
           appList.updateShowedModel(currentCategory.index);
         } else {
-          mainLabelGrid.text =  pinnedModel == 0 ? "Favorite Apps" : "Recent Apps";
+          mainLabelGrid.text =  pinnedModel == 0 ? i18n("Favorite Apps") : i18n("Recent Apps");
         }
       }
         
@@ -198,7 +198,7 @@ Item {
       // Show all app buttons
       PlasmaComponents.Button  {
         id: allAppsButton
-        text: i18n(showAllApps ? "Back" : "All apps")
+        text: showAllApps ? i18n("Back") : i18n("All apps")
         flat: false
         
         topPadding: 6

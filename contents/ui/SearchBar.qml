@@ -31,7 +31,7 @@ Rectangle {
             Layout.fillWidth: true
             font.pointSize: 12
 
-            placeholderText: "Search..."
+            placeholderText: i18n("Search...")
             background: Rectangle{
                 color: "transparent"
             }

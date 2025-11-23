@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mmcklauncher\n"
-"Report-Msgid-Bugs-To: https://github.com/snoutbug/mmcklauncher\n"
-"POT-Creation-Date: 2022-03-07 20:42-0000\n"
+"Report-Msgid-Bugs-To: https://github.com/EliverLara/AndromedaLauncher\n"
+"POT-Creation-Date: 2025-11-23 13:07-0600\n"
 "PO-Revision-Date: 2022-03-07 20:42+0000\n"
 "Last-Translator: Friedrich Schriewer <friedrich.schriewer@gmx.net>\n"
 "Language-Team: n/a\n"
@@ -17,119 +17,300 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "Settings"
-msgstr "Einstellungen"
+#: ../metadata.json
+msgid "Andromeda Launcher"
+msgstr ""
 
-msgid "Power Off"
-msgstr "Herunterfahren"
+#: ../metadata.json
+msgid "A modern Launcher for plasma!"
+msgstr ""
 
-msgid "Favorite Apps"
-msgstr "Favoriten"
+#: ../contents/code/tools.js
+msgid "Remove from Favorites"
+msgstr ""
 
+#: ../contents/code/tools.js
+msgid "Add to Favorites"
+msgstr ""
+
+#: ../contents/code/tools.js
+msgid "On All Activities"
+msgstr ""
+
+#: ../contents/code/tools.js
+msgid "On the Current Activity"
+msgstr ""
+
+#: ../contents/code/tools.js
+msgid "Show in Favorites"
+msgstr ""
+
+#: ../contents/config/config.qml
 msgid "General"
 msgstr "Allgemein"
 
-msgid "Default Page:"
-msgstr "Startseite:"
+#: ../contents/config/config.qml
+msgid "Lists and grids"
+msgstr ""
 
-msgid "All"
-msgstr "Alle"
-
-msgid "Developement"
-msgstr "Entwicklung"
-
-msgid "Games"
-msgstr "Spiele"
-
-msgid "Graphics"
-msgstr "Grafik"
-
-msgid "Internet"
-msgstr "Internet"
-
-msgid "Multimedia"
-msgstr "Multimedia"
-
-msgid "Office"
-msgstr "Büro"
-
-msgid "Science & Math"
-msgstr "Wissenschaft & Mathematik"
-
-msgid "System"
-msgstr "System"
-
-msgid "Utilities"
-msgstr "Werkzeuge"
-
-msgid "Lost & Found"
-msgstr "Fundsachen"
-
+#: ../contents/ui/config/ConfigGeneral.qml
 msgid "Icon:"
 msgstr "Ikone:"
 
+#: ../contents/ui/config/ConfigGeneral.qml
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose…"
+msgstr ""
+
+#: ../contents/ui/config/ConfigGeneral.qml
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Clear Icon"
+msgstr ""
+
+#: ../contents/ui/config/ConfigGeneral.qml
 msgid "Indicator:"
 msgstr "Statusanzeige:"
 
+#: ../contents/ui/config/ConfigGeneral.qml
 msgid "Enabled"
 msgstr "Eingeschaltet"
 
+#: ../contents/ui/config/ConfigGeneral.qml
 msgid "Indicator Color:"
 msgstr "Farbe der Statusanzeige:"
 
+#: ../contents/ui/config/ConfigGeneral.qml
 msgid "Please choose a color"
 msgstr "Bitte wählen Sie eine Farbe"
 
+#: ../contents/ui/config/ConfigGeneral.qml
 msgid "Greeting:"
 msgstr "Begrüßung:"
 
+#: ../contents/ui/config/ConfigGeneral.qml
 msgid "Custom Greeting Text:"
 msgstr "Benutzerdefinierte Begrüßung:"
 
+#: ../contents/ui/config/ConfigGeneral.qml
 msgid "No custom greeting set"
 msgstr "Keine Begrüßung gesetzt"
 
+#: ../contents/ui/config/ConfigGeneral.qml
+msgid "Glow"
+msgstr ""
+
+#: ../contents/ui/config/ConfigGeneral.qml
+msgid "Glow color:"
+msgstr ""
+
+#: ../contents/ui/config/ConfigGeneral.qml
+msgid "Purple (Default)"
+msgstr ""
+
+#: ../contents/ui/config/ConfigGeneral.qml
+msgid "Blue"
+msgstr ""
+
+#: ../contents/ui/config/ConfigGeneral.qml
+msgid "Red"
+msgstr ""
+
+#: ../contents/ui/config/ConfigGeneral.qml
 msgid "Launcher Positioning:"
 msgstr "Startmenü Position:"
 
+#: ../contents/ui/config/ConfigGeneral.qml
 msgid "Default"
 msgstr "Standard"
 
+#: ../contents/ui/config/ConfigGeneral.qml
 msgid "Horizontal Center"
 msgstr "Horizontal zentriert"
 
+#: ../contents/ui/config/ConfigGeneral.qml
 msgid "Screen Center"
 msgstr "Bildschirmmitte"
 
+#: ../contents/ui/config/ConfigGeneral.qml
 msgid "Floating"
 msgstr "Schwebend"
 
+#: ../contents/ui/config/ConfigGeneral.qml
 msgid "Offset Screen Edge (0 is Default):"
 msgstr "Versatz Bildschirmkante (0 ist Standard):"
 
+#: ../contents/ui/config/ConfigGeneral.qml
 msgid "Offset Panel (0 is Default):"
 msgstr "Versatz Leiste (0 ist Standard):"
 
+#: ../contents/ui/config/ConfigGeneral.qml
+msgid "Pinned applications Page:"
+msgstr ""
+
+#: ../contents/ui/config/ConfigGeneral.qml
+msgid "Favorites (Default)"
+msgstr ""
+
+#: ../contents/ui/config/ConfigGeneral.qml
+msgid "Recent Applications"
+msgstr ""
+
+#: ../contents/ui/config/ConfigGeneral.qml
+msgid "Default Page:"
+msgstr "Startseite:"
+
+#: ../contents/ui/config/ConfigGeneral.qml
 msgid "All Applications (Default)"
 msgstr "Alle Anwendungen (Standard)"
 
-msgid "Search:"
-msgstr "Suche:"
+#: ../contents/ui/config/ConfigGeneral.qml
+msgid "Developement"
+msgstr "Entwicklung"
 
-msgid "Expand search to bookmarks, files and emails"
-msgstr "Erweiterte Suche für Lesezeichen, Dateien und E-Mails"
+#: ../contents/ui/config/ConfigGeneral.qml
+msgid "Games"
+msgstr "Spiele"
 
-msgid "Theming:"
-msgstr "Thematisierung:"
+#: ../contents/ui/config/ConfigGeneral.qml
+msgid "Graphics"
+msgstr "Grafik"
 
-msgid "Dark (Default)"
-msgstr "Dunkel (Standard)"
+#: ../contents/ui/config/ConfigGeneral.qml
+msgid "Internet"
+msgstr "Internet"
 
-msgid "Light"
-msgstr "Hell"
+#: ../contents/ui/config/ConfigGeneral.qml
+msgid "Multimedia"
+msgstr "Multimedia"
 
-msgid "Matching"
-msgstr "Automatisch anpassend"
+#: ../contents/ui/config/ConfigGeneral.qml
+msgid "Office"
+msgstr "Büro"
 
-msgid "Search your computer"
-msgstr "Computer durchsuchen"
+#: ../contents/ui/config/ConfigGeneral.qml
+msgid "Science & Math"
+msgstr "Wissenschaft & Mathematik"
+
+#: ../contents/ui/config/ConfigGeneral.qml
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: ../contents/ui/config/ConfigGeneral.qml
+msgid "System"
+msgstr "System"
+
+#: ../contents/ui/config/ConfigGeneral.qml
+msgid "Utilities"
+msgstr "Werkzeuge"
+
+#: ../contents/ui/config/ConfigGeneral.qml
+msgid "Lost & Found"
+msgstr "Fundsachen"
+
+#: ../contents/ui/config/ConfigGeneral.qml
+msgid "Use system font settings"
+msgstr ""
+
+#: ../contents/ui/config/ListAndGrid.qml
+msgid "Lists:"
+msgstr ""
+
+#: ../contents/ui/config/ListAndGrid.qml
+msgid "Compact list items"
+msgstr ""
+
+#: ../contents/ui/config/ListAndGrid.qml
+msgid "All applications view:"
+msgstr ""
+
+#: ../contents/ui/config/ListAndGrid.qml
+msgid "show items in grid"
+msgstr ""
+
+#: ../contents/ui/config/ListAndGrid.qml
+msgid "Grid icon size:"
+msgstr ""
+
+#: ../contents/ui/config/ListAndGrid.qml
+msgid "Small"
+msgstr ""
+
+#: ../contents/ui/config/ListAndGrid.qml
+msgid "Medium"
+msgstr ""
+
+#: ../contents/ui/config/ListAndGrid.qml
+msgid "Large"
+msgstr ""
+
+#: ../contents/ui/config/ListAndGrid.qml
+msgid "Huge"
+msgstr ""
+
+#: ../contents/ui/config/ListAndGrid.qml
+msgid "Number of columns in grid"
+msgstr ""
+
+#: ../contents/ui/Greeting.qml
+msgid "Hi, %1"
+msgstr ""
+
+#: ../contents/ui/Greeting.qml
+msgid "%1@%2"
+msgstr ""
+
+#: ../contents/ui/main.qml
+msgid "Edit Applications…"
+msgstr ""
+
+#: ../contents/ui/MainView.qml
+msgid "Favorite Apps"
+msgstr "Favoriten"
+
+#: ../contents/ui/MainView.qml
+msgid "Recent Apps"
+msgstr ""
+
+#: ../contents/ui/MainView.qml
+msgid "Back"
+msgstr ""
+
+#: ../contents/ui/MainView.qml
+msgid "All apps"
+msgstr ""
+
+#: ../contents/ui/RunnerList.qml
+msgctxt "@info:status"
+msgid "No matches"
+msgstr ""
+
+#: ../contents/ui/SearchBar.qml
+msgid "Search..."
+msgstr ""
+
+#~ msgid "Power Off"
+#~ msgstr "Herunterfahren"
+
+#~ msgid "All"
+#~ msgstr "Alle"
+
+#~ msgid "Search:"
+#~ msgstr "Suche:"
+
+#~ msgid "Expand search to bookmarks, files and emails"
+#~ msgstr "Erweiterte Suche für Lesezeichen, Dateien und E-Mails"
+
+#~ msgid "Theming:"
+#~ msgstr "Thematisierung:"
+
+#~ msgid "Dark (Default)"
+#~ msgstr "Dunkel (Standard)"
+
+#~ msgid "Light"
+#~ msgstr "Hell"
+
+#~ msgid "Matching"
+#~ msgstr "Automatisch anpassend"
+
+#~ msgid "Search your computer"
+#~ msgstr "Computer durchsuchen"
