@@ -55,6 +55,10 @@ Item {
 
   property int pinnedModel: plasmoid.configuration.pinnedModel
 
+  property alias headerLabelRow: headerLabelRow
+  property alias searchBar: searchBar
+  property alias contentY: backdrop
+
   KCoreAddons.KUser {
       id: kuser
   }
@@ -283,7 +287,7 @@ Item {
       id: pinnedApps
       Layout.fillWidth: true
       Layout.leftMargin: scrollBarMetrics.width / 2 // Centers the grid due to not scrollbar here
-      Layout.preferredHeight: root.cellSizeHeight*3
+      Layout.preferredHeight: root.cellSizeHeight*root.rows
       Keys.priority: Keys.AfterItem
       Keys.forwardTo: searchBar.textField
 

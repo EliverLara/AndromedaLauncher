@@ -57,6 +57,8 @@ PlasmaCore.Dialog {
                                                      highlightItemSvg.margins.left + highlightItemSvg.margins.right))
     property int cellSizeWidth: cellSizeHeight //+ Kirigami.Units.gridUnit
     
+    property int rows: Plasmoid.configuration.numberOfRows
+    
     onVisibleChanged: {
         if (!visible) {
             reset();
@@ -154,7 +156,11 @@ PlasmaCore.Dialog {
         id: fs
         focus: true
         Layout.minimumWidth:  (root.cellSizeWidth * Plasmoid.configuration.numberColumns) + scrollBarMetrics.width + innerPadding*2
-        Layout.minimumHeight: 550 * 1
+        Layout.minimumHeight: main.headerLabelRow.height
+                              + main.searchBar.height
+                              + main.contentY.y
+                              + innerPadding*2
+                              + root.cellSizeHeight * rows
         Layout.maximumWidth: Layout.minimumWidth
         Layout.maximumHeight: Layout.minimumHeight
         
@@ -170,10 +176,9 @@ PlasmaCore.Dialog {
 
           MainView {
             id: main
-            width:  mainItem.width - (fs.innerPadding*2)
-            height: mainItem.height - (fs.innerPadding*2)
-            x: fs.innerPadding
-            y: fs.innerPadding
+            
+            anchors.fill: parent
+            anchors.margins: fs.innerPadding
           }
         }
 

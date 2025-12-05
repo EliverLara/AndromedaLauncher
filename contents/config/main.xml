@@ -90,5 +90,9 @@
       <label>Number of columns to favorites apps grid</label>
       <default>6</default>
     </entry>
+     <entry name="numberOfRows" type="Int">
+      <label>Number of rows to favorites apps grid</label>
+      <default>3</default>
+    </entry>
   </group>
 </kcfg>
