@@ -34,6 +34,8 @@ import org.kde.kirigami as Kirigami
 AppListView {
   id: searchList
 
+  property alias viewItem: searchList
+
   Loader {
     anchors.fill: parent
     width: searchList.width - (Kirigami.Units.gridUnit * 4)
@@ -70,10 +72,9 @@ AppListView {
   Connections {
     target: runnerModel
     function onQueryChanged() { 
-      runnerList.model = runnerModel.modelForRow(0) 
-      runnerList.blockingHoverFocus = true
-      runnerList.interceptedPosition = null
-      runnerList.currentIndex = 0
+      searchList.blockingHoverFocus = true;
+      searchList.interceptedPosition = null;
+      searchList.currentIndex = 0;
     }
   }
 }

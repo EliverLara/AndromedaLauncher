@@ -10,6 +10,7 @@ import org.kde.plasma.components 3.0 as PlasmaComponents
 import org.kde.kirigami as Kirigami
 
 DropArea {    
+    property alias viewItem: pinnedAppsGrid
     AppGridView {
         id: pinnedAppsGrid
         

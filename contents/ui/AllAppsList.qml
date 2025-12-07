@@ -35,7 +35,7 @@ Item {
 
   property QtObject allAppsModel: rootModel.modelForRow(2)
 
-  property var currentStateIndex: Plasmoid.configuration.defaultPage
+  property var currentStateIndex: plasmoid.configuration.defaultPage
 
   property bool showItemsInGrid: plasmoid.configuration.showItemsInGrid
 

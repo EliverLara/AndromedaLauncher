@@ -25,6 +25,7 @@ import org.kde.coreaddons 1.0 as KCoreAddons
 
 import org.kde.plasma.plasma5support 2.0 as P5Support
 import org.kde.kirigami as Kirigami
+import QtQuick.Controls
 
 import "js/colorType.js" as ColorType
 
@@ -58,23 +59,17 @@ Item {
   property alias headerLabelRow: headerLabelRow
   property alias searchBar: searchBar
   property alias contentY: backdrop
+  property int itemSpacing: 8
 
   KCoreAddons.KUser {
       id: kuser
   }
 
-  function updateStartpage(){
-    appList.currentStateIndex = plasmoid.configuration.defaultPage
-  }
-
-  function reload() {
-    searchBar.textField.clear()
-    appList.reset()
-  }
   function reset(){
     showAllApps = false;
     searchBar.textField.clear();
-    appList.reset();
+    searchBar.textField.forceActiveFocus();
+    stack.replace(pinnedAppsComponent)
     headerLabelRow.reset();
   }
 
@@ -143,7 +138,7 @@ Item {
     anchors.right: parent.right
     anchors.bottom: parent.bottom
 
-    spacing: 2
+    spacing: itemSpacing
 
     RowLayout {
       id: headerLabelRow
@@ -151,6 +146,7 @@ Item {
 
       function reset() {
         if(showAllApps) {
+          var appList = stack.currentItem
           var currentCategory = appList.getCurrentCategory();
           mainLabelGrid.text = currentCategory.name;
           sortingImage.source = currentCategory.icon;
@@ -191,6 +187,7 @@ Item {
           enabled: showAllApps && !searching
           acceptedButtons: Qt.LeftButton | Qt.RightButton | Qt.MiddleButton
           onClicked: {
+            var appList = stack.currentItem;
             if (mouse.button == Qt.LeftButton) { appList.incrementCurrentStateIndex() }
             else if (mouse.button == Qt.RightButton) { appList.decrementCurrentStateIndex() }
             else if (mouse.button == Qt.MiddleButton) { appList.resetCurrentStateIndex() }
@@ -210,8 +207,6 @@ Item {
         leftPadding: 10
         rightPadding: 10
 
-        visible: !searching
-
       //  icon.name: showAllApps ? "go-previous" : "go-next"
         icon.height: 15
         icon.width: icon.height
@@ -225,6 +220,7 @@ Item {
 
         onClicked: {
           showAllApps = !showAllApps;
+          stack.replace(showAllApps ? allAppsComponent : pinnedAppsComponent)
           headerLabelRow.reset();
           searchBar.textField.forceActiveFocus(Qt.BacktabFocusReason);
         }
@@ -277,93 +273,36 @@ Item {
 
       Component.onCompleted: headerLabelRow.reset()
     }
-    Item {
-      visible: !appList.visible && !searching
-      Layout.fillWidth: true
-      Layout.fillHeight: true
-    }
 
-    PinnedApps{
-      id: pinnedApps
+    StackView {
+      id: stack
+      initialItem: pinnedAppsComponent
       Layout.fillWidth: true
-      Layout.leftMargin: scrollBarMetrics.width / 2 // Centers the grid due to not scrollbar here
       Layout.preferredHeight: root.cellSizeHeight*root.rows
       Keys.priority: Keys.AfterItem
       Keys.forwardTo: searchBar.textField
-
-      visible: !appList.visible && !searching
     }
 
-    //List of Apps
-    AllAppsList{
-      id: appList
-      state: "hidden"
-      Layout.fillHeight: true
-      Layout.fillWidth: true
-
-      Keys.priority: Keys.AfterItem
-      Keys.forwardTo: searchBar.textField
-
-      visible: opacity > 0
-      states: [
-        State {
-          name: "visible"; when: (showAllApps && !searching)
-          PropertyChanges { target: appList; opacity: 1.0 }
-        },
-        State {
-          name: "hidden"; when: (!showAllApps || searching)
-          PropertyChanges { target: appList; opacity: 0.0}
-        }
-      ]
-      transitions: [
-        Transition {
-          to: "visible"
-          PropertyAnimation {properties: 'opacity'; duration: 100; easing.type: Easing.OutQuart}
-        },
-        Transition {
-          to: "hidden"
-          PropertyAnimation {properties: 'opacity'; duration: 100; easing.type: Easing.OutQuart}
-        }
-      ]
-    }
-    
-    RunnerList {
-      id: runnerList
-      model: runnerModel
-      state: "hidden"
-      visible: opacity > 0
-
-      Layout.fillWidth: true
-      Layout.fillHeight: true
-
-      Keys.priority: Keys.AfterItem
-      Keys.forwardTo: searchBar.textField
-
-      states: [
-      State {
-        name: "visible"; when: (searching)
-        PropertyChanges { target: runnerList; opacity: 1.0 }
-      },
-      State {
-        name: "hidden"; when: (!searching)
-        PropertyChanges { target: runnerList; opacity: 0.0}
-      }]
-      transitions: [
-        Transition {
-          to: "visible"
-          PropertyAnimation {properties: 'opacity'; duration: 100; easing.type: Easing.OutQuart}
-        },
-        Transition {
-          to: "hidden"
-          PropertyAnimation {properties: 'opacity'; duration: 100; easing.type: Easing.OutQuart}
-        }
-      ]
+    Component {
+      id: pinnedAppsComponent
+      PinnedApps{
+        id: pinnedApps
+      }
     }
 
-    Item {
-      visible: !appList.visible && !searching
-      Layout.fillWidth: true
-      Layout.fillHeight: true
+    Component {
+      id: allAppsComponent
+      AllAppsList{
+        id: appList
+      }
+    }
+
+    Component {
+      id:searchComponent
+      RunnerList {
+        id: runnerList
+        model: runnerModel.count ? runnerModel.modelForRow(0) : null
+      }
     }
 
     // Search Bar
@@ -373,8 +312,16 @@ Item {
       Layout.fillWidth: true
       Layout.preferredHeight: 45
       Layout.maximumHeight: Layout.preferredHeight
+      Layout.alignment: Qt.AlignBottom
       Keys.priority: Keys.AfterItem
-      Keys.forwardTo: searching ? runnerList : showAllApps ? appList.viewItem : pinnedApps
+      Keys.forwardTo: stack.currentItem.viewItem
     }
+  }
+  onSearchingChanged: {
+    if(searching){
+      stack.replace(searchComponent)
+    } else if(showAllApps) {
+      stack.replace(allAppsComponent)
+    } else { stack.replace(pinnedAppsComponent) }
   }
 }

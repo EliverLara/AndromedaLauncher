@@ -63,7 +63,6 @@ PlasmaCore.Dialog {
         if (!visible) {
             reset();
         } else {
-            main.updateStartpage()
             var pos = popupPosition(width, height);
             x = pos.x;
             y = pos.y;
@@ -159,8 +158,9 @@ PlasmaCore.Dialog {
         Layout.minimumHeight: main.headerLabelRow.height
                               + main.searchBar.height
                               + main.contentY.y
-                              + innerPadding*2
+                              + main.itemSpacing * 3
                               + root.cellSizeHeight * rows
+                              + innerPadding / 2
         Layout.maximumWidth: Layout.minimumWidth
         Layout.maximumHeight: Layout.minimumHeight
         
@@ -187,10 +187,6 @@ PlasmaCore.Dialog {
                 root.visible = false;
             }
         }
-    }
-
-    function refreshModel() {
-        main.reload()
     }
 
     Component.onCompleted: {
