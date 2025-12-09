@@ -15,6 +15,7 @@ DropArea {
         id: pinnedAppsGrid
         
         anchors.fill: parent
+        leftMargin: scrollBarMetrics.width / 1.5
         
         property QtObject recentAppsModel: rootModel.modelForRow(0);
         showScrollBar: false

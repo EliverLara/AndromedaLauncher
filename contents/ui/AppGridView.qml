@@ -44,7 +44,7 @@ GridView {
     clip: true
     currentIndex: count > 0 ? 0 : -1
     interactive: height < contentHeight
-    reuseItems: true
+    reuseItems: false
     boundsBehavior: Flickable.StopAtBounds
     // default keyboard navigation doesn't allow focus reasons to be used
     // and eats up/down key events when at the beginning or end of the list.
@@ -83,7 +83,7 @@ GridView {
         z: 2
         height: grid.height
         anchors.right: parent.right
-        visible: grid.showScrollBar
+        policy: grid.showScrollBar ? ScrollBar.AsNeeded : ScrollBar.AlwaysOff
     }
 
     Kirigami.WheelHandler {
