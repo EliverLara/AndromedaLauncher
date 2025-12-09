@@ -321,7 +321,11 @@ Item {
     if(searching){
       stack.replace(searchComponent)
     } else if(showAllApps) {
-      stack.replace(allAppsComponent)
-    } else { stack.replace(pinnedAppsComponent) }
+      stack.replace(allAppsComponent);
+       headerLabelRow.reset();
+    } else { 
+      stack.replace(pinnedAppsComponent);
+       headerLabelRow.reset();
+    }
   }
 }
