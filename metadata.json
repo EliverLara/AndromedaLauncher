@@ -1,22 +1,25 @@
 {
-    "KPackageStructure": "Plasma/Applet",
-    "KPlugin": {
-        "Authors": [
-            {
-                "Email": "eliverlara@gmail.com",
-                "Name": "EliverLara"
-            }
-        ],
-        "Category": "Application Launchers",
-        "Description": "A modern Launcher for plasma!",
-        "EnabledByDefault": true,
-        "Icon": "start-here-kde",
-        "Id": "AndromedaLauncher",
-        "Name": "Andromeda Launcher",
-
-        "Version": "0.6",
-        "Website": "https://github.com/EliverLara/AndromedaLauncher"
-    },
-    "X-Plasma-Provides": [ "org.kde.plasma.launchermenu" ],
-    "X-Plasma-API-Minimum-Version": "6.0"
+	"KPackageStructure": "Plasma/Applet",
+	"KPlugin": {
+		"Authors": [
+			{
+				"Email": "eliverlara@gmail.com",
+				"Name": "EliverLara"
+			}
+		],
+		"Category": "Application Launchers",
+		"Description": "A modern Launcher for plasma!",
+		"Description[el]": "Μοντέρνος Εκκινητής plasma",
+		"EnabledByDefault": true,
+		"Icon": "start-here-kde",
+		"Id": "AndromedaLauncher",
+		"Name": "Andromeda Launcher",
+		"Name[el]": "Andromeda Launcher",
+		"Version": "0.6",
+		"Website": "https://github.com/EliverLara/AndromedaLauncher"
+	},
+	"X-Plasma-API-Minimum-Version": "6.0",
+	"X-Plasma-Provides": [
+		"org.kde.plasma.launchermenu"
+	]
 }

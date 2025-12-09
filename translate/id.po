@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mmcklauncher\n"
 "Report-Msgid-Bugs-To: https://github.com/EliverLara/AndromedaLauncher\n"
-"POT-Creation-Date: 2025-11-23 13:07-0600\n"
+"POT-Creation-Date: 2025-12-08 20:39-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Adam Adrian <4.adam.adrian@gmail.com>\n"
 "Language-Team: Indonesia <>\n"
@@ -249,6 +249,10 @@ msgstr ""
 
 #: ../contents/ui/config/ListAndGrid.qml
 msgid "Number of columns in grid"
+msgstr ""
+
+#: ../contents/ui/config/ListAndGrid.qml
+msgid "Number of rows in grid"
 msgstr ""
 
 #: ../contents/ui/Greeting.qml
