@@ -10,11 +10,13 @@
 		"Category": "Application Launchers",
 		"Description": "A modern Launcher for plasma!",
 		"Description[el]": "Μοντέρνος Εκκινητής plasma",
+		"Description[pl]": "Nowoczesne menu programów dla Plasmy!",
 		"EnabledByDefault": true,
 		"Icon": "start-here-kde",
 		"Id": "AndromedaLauncher",
 		"Name": "Andromeda Launcher",
 		"Name[el]": "Andromeda Launcher",
+		"Name[pl]": "Andromeda Launcher",
 		"Version": "0.6",
 		"Website": "https://github.com/EliverLara/AndromedaLauncher"
 	},
