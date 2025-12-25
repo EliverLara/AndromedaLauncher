@@ -35,11 +35,11 @@ msgstr "Προσθήκη στα Αγαπημένα"
 
 #: ../contents/code/tools.js
 msgid "On All Activities"
-msgstr ""
+msgstr "Σε Όλες τις Δραστηριότητες"
 
 #: ../contents/code/tools.js
 msgid "On the Current Activity"
-msgstr ""
+msgstr "Στη Συγκεκριμένη Δραστηριότητα"
 
 #: ../contents/code/tools.js
 msgid "Show in Favorites"
@@ -55,7 +55,7 @@ msgstr "Λίστα και πλέγμα"
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid "Icon:"
-msgstr "Εικονίδια"
+msgstr "Εικονίδιo"
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgctxt "@item:inmenu Open icon chooser dialog"
@@ -205,7 +205,7 @@ msgstr "Εργαλεία"
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid "Lost & Found"
-msgstr ""
+msgstr "Αταξινόμητα"
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid "Use system font settings"
@@ -249,15 +249,15 @@ msgstr "Τεράστιο"
 
 #: ../contents/ui/config/ListAndGrid.qml
 msgid "Number of columns in grid"
-msgstr "Αριθμός στυλών"
+msgstr "Αριθμός στυλών πλέγματος"
 
 #: ../contents/ui/config/ListAndGrid.qml
 msgid "Number of rows in grid"
-msgstr ""
+msgstr "Αριθμός γραμμών πλέγματος"
 
 #: ../contents/ui/Greeting.qml
 msgid "Hi, %1"
-msgstr "Γεια σου, %1"
+msgstr "Γειά σου, %1"
 
 #: ../contents/ui/Greeting.qml
 msgid "%1@%2"
