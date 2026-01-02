@@ -1,0 +1,289 @@
+# Portuguese translations for AndromedaLauncher package
+# Traduções em português brasileiro para o AndromedaLauncher.
+# Copyright (C) 2026 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the AndromedaLauncher package.
+# david <david@cachyos>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: AndromedaLauncher 0.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-02 10:41+0000\n"
+"PO-Revision-Date: 2026-01-02 10:44+0000\n"
+"Last-Translator: david <david@cachyos>\n"
+"Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge.net>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: contents/config/config.qml:26
+msgid "General"
+msgstr "Geral"
+
+#: contents/config/config.qml:31
+msgid "Lists and grids"
+msgstr "Listas e grades"
+
+#: contents/code/tools.js:44
+msgid "Remove from Favorites"
+msgstr "Remover dos favoritos"
+
+#: contents/code/tools.js:48
+msgid "Add to Favorites"
+msgstr "Adicionar aos favoritos"
+
+#: contents/code/tools.js:72
+msgid "On All Activities"
+msgstr "Em todas as atividades"
+
+#: contents/code/tools.js:122
+msgid "On the Current Activity"
+msgstr "Na atividade atual"
+
+#: contents/code/tools.js:136
+msgid "Show in Favorites"
+msgstr "Mostrar nos favoritos"
+
+#: contents/ui/config/ConfigGeneral.qml:71
+msgid "Icon:"
+msgstr "Ícone:"
+
+#: contents/ui/config/ConfigGeneral.qml:151
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose…"
+msgstr "Escolher…"
+
+#: contents/ui/config/ConfigGeneral.qml:156
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Clear Icon"
+msgstr "Limpar ícone"
+
+#: contents/ui/config/ConfigGeneral.qml:167
+msgid "Indicator:"
+msgstr "Indicador:"
+
+#: contents/ui/config/ConfigGeneral.qml:168
+#: contents/ui/config/ConfigGeneral.qml:202
+#: contents/ui/config/ConfigGeneral.qml:221
+#: contents/ui/config/ConfigGeneral.qml:327
+msgid "Enabled"
+msgstr "Ativado"
+
+#: contents/ui/config/ConfigGeneral.qml:179
+msgid "Indicator Color:"
+msgstr "Cor do indicador:"
+
+#: contents/ui/config/ConfigGeneral.qml:190
+msgid "Please choose a color"
+msgstr "Escolha uma cor"
+
+#: contents/ui/config/ConfigGeneral.qml:201
+msgid "Greeting:"
+msgstr "Saudação:"
+
+#: contents/ui/config/ConfigGeneral.qml:212
+msgid "Custom Greeting Text:"
+msgstr "Texto de saudação personalizado:"
+
+#: contents/ui/config/ConfigGeneral.qml:213
+msgid "No custom greeting set"
+msgstr "Nenhuma saudação personalizada definida"
+
+#: contents/ui/config/ConfigGeneral.qml:220
+msgid "Glow"
+msgstr "Brilho"
+
+#: contents/ui/config/ConfigGeneral.qml:229
+msgid "Glow color:"
+msgstr "Cor do brilho:"
+
+#: contents/ui/config/ConfigGeneral.qml:232
+msgid "Purple (Default)"
+msgstr "Roxo (padrão)"
+
+#: contents/ui/config/ConfigGeneral.qml:233
+msgid "Blue"
+msgstr "Azul"
+
+#: contents/ui/config/ConfigGeneral.qml:234
+msgid "Red"
+msgstr "Vermelho"
+
+#: contents/ui/config/ConfigGeneral.qml:243
+msgid "Launcher Positioning:"
+msgstr "Posicionamento do launcher:"
+
+#: contents/ui/config/ConfigGeneral.qml:245
+msgid "Default"
+msgstr "Padrão"
+
+#: contents/ui/config/ConfigGeneral.qml:246
+msgid "Horizontal Center"
+msgstr "Centro horizontal"
+
+#: contents/ui/config/ConfigGeneral.qml:247
+msgid "Screen Center"
+msgstr "Centro da tela"
+
+#: contents/ui/config/ConfigGeneral.qml:260
+msgid "Floating"
+msgstr "Flutuante"
+
+#: contents/ui/config/ConfigGeneral.qml:269
+msgid "Offset Screen Edge (0 is Default):"
+msgstr "Deslocamento da borda da tela (0 é o padrão):"
+
+#: contents/ui/config/ConfigGeneral.qml:281
+msgid "Offset Panel (0 is Default):"
+msgstr "Deslocamento do painel (0 é o padrão):"
+
+#: contents/ui/config/ConfigGeneral.qml:295
+msgid "Pinned applications Page:"
+msgstr "Página de aplicativos fixados:"
+
+#: contents/ui/config/ConfigGeneral.qml:297
+msgid "Favorites (Default)"
+msgstr "Favoritos (padrão)"
+
+#: contents/ui/config/ConfigGeneral.qml:298
+msgid "Recent Applications"
+msgstr "Aplicativos recentes"
+
+#: contents/ui/config/ConfigGeneral.qml:303
+msgid "Default Page:"
+msgstr "Página padrão:"
+
+#: contents/ui/config/ConfigGeneral.qml:305
+msgid "All Applications (Default)"
+msgstr "Todos os aplicativos (padrão)"
+
+#: contents/ui/config/ConfigGeneral.qml:306
+msgid "Developement"
+msgstr "Desenvolvimento"
+
+#: contents/ui/config/ConfigGeneral.qml:307
+msgid "Games"
+msgstr "Jogos"
+
+#: contents/ui/config/ConfigGeneral.qml:308
+msgid "Graphics"
+msgstr "Gráficos"
+
+#: contents/ui/config/ConfigGeneral.qml:309
+msgid "Internet"
+msgstr "Internet"
+
+#: contents/ui/config/ConfigGeneral.qml:310
+msgid "Multimedia"
+msgstr "Multimídia"
+
+#: contents/ui/config/ConfigGeneral.qml:311
+msgid "Office"
+msgstr "Escritório"
+
+#: contents/ui/config/ConfigGeneral.qml:312
+msgid "Science & Math"
+msgstr "Ciência e matemática"
+
+#: contents/ui/config/ConfigGeneral.qml:313
+msgid "Settings"
+msgstr "Configurações"
+
+#: contents/ui/config/ConfigGeneral.qml:314
+msgid "System"
+msgstr "Sistema"
+
+#: contents/ui/config/ConfigGeneral.qml:315
+msgid "Utilities"
+msgstr "Utilitários"
+
+#: contents/ui/config/ConfigGeneral.qml:316
+msgid "Lost & Found"
+msgstr "Achados e perdidos"
+
+#: contents/ui/config/ConfigGeneral.qml:326
+msgid "Use system font settings"
+msgstr "Usar configurações de fonte do sistema"
+
+#: contents/ui/config/ListAndGrid.qml:17
+msgid "Lists:"
+msgstr "Listas:"
+
+#: contents/ui/config/ListAndGrid.qml:18
+msgid "Compact list items"
+msgstr "Itens de lista compactos"
+
+#: contents/ui/config/ListAndGrid.qml:23
+msgid "All applications view:"
+msgstr "Visualização de todos os aplicativos:"
+
+#: contents/ui/config/ListAndGrid.qml:24
+msgid "show items in grid"
+msgstr "mostrar itens em grade"
+
+#: contents/ui/config/ListAndGrid.qml:29
+msgid "Grid icon size:"
+msgstr "Tamanho dos ícones da grade:"
+
+#: contents/ui/config/ListAndGrid.qml:30
+msgid "Small"
+msgstr "Pequeno"
+
+#: contents/ui/config/ListAndGrid.qml:30
+msgid "Medium"
+msgstr "Médio"
+
+#: contents/ui/config/ListAndGrid.qml:30
+msgid "Large"
+msgstr "Grande"
+
+#: contents/ui/config/ListAndGrid.qml:30
+msgid "Huge"
+msgstr "Enorme"
+
+#: contents/ui/config/ListAndGrid.qml:38
+msgid "Number of columns in grid"
+msgstr "Número de colunas na grade"
+
+#: contents/ui/config/ListAndGrid.qml:46
+msgid "Number of rows in grid"
+msgstr "Número de linhas na grade"
+
+#: contents/ui/Greeting.qml:9
+msgid "Hi, %1"
+msgstr "Olá, %1"
+
+#: contents/ui/Greeting.qml:9
+msgid "%1@%2"
+msgstr "%1@%2"
+
+#: contents/ui/RunnerList.qml:52
+msgctxt "@info:status"
+msgid "No matches"
+msgstr "Nenhum resultado"
+
+#: contents/ui/main.qml:203
+msgid "Edit Applications…"
+msgstr "Editar aplicativos…"
+
+#: contents/ui/MainView.qml:155
+msgid "Favorite Apps"
+msgstr "Aplicativos favoritos"
+
+#: contents/ui/MainView.qml:155
+msgid "Recent Apps"
+msgstr "Aplicativos recentes"
+
+#: contents/ui/MainView.qml:202
+msgid "Back"
+msgstr "Voltar"
+
+#: contents/ui/MainView.qml:202
+msgid "All apps"
+msgstr "Todos os aplicativos"
+
+#: contents/ui/SearchBar.qml:34
+msgid "Search..."
+msgstr "Pesquisar…"
