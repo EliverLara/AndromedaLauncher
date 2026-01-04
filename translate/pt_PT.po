@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: AndromedaLauncher 0.6\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-02 10:41+0000\n"
+"Report-Msgid-Bugs-To: https://github.com/EliverLara/AndromedaLauncher\n"
+"POT-Creation-Date: 2026-01-04 16:56-0600\n"
 "PO-Revision-Date: 2026-01-02 10:44+0000\n"
 "Last-Translator: david <david@cachyos>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge.net>\n"
@@ -18,272 +18,277 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: contents/config/config.qml:26
-msgid "General"
-msgstr "Geral"
+#: ../metadata.json
+msgid "Andromeda Launcher"
+msgstr ""
 
-#: contents/config/config.qml:31
-msgid "Lists and grids"
-msgstr "Listas e grades"
+#: ../metadata.json
+msgid "A modern Launcher for plasma!"
+msgstr ""
 
-#: contents/code/tools.js:44
+#: ../contents/code/tools.js
 msgid "Remove from Favorites"
 msgstr "Remover dos favoritos"
 
-#: contents/code/tools.js:48
+#: ../contents/code/tools.js
 msgid "Add to Favorites"
 msgstr "Adicionar aos favoritos"
 
-#: contents/code/tools.js:72
+#: ../contents/code/tools.js
 msgid "On All Activities"
 msgstr "Em todas as atividades"
 
-#: contents/code/tools.js:122
+#: ../contents/code/tools.js
 msgid "On the Current Activity"
 msgstr "Na atividade atual"
 
-#: contents/code/tools.js:136
+#: ../contents/code/tools.js
 msgid "Show in Favorites"
 msgstr "Mostrar nos favoritos"
 
-#: contents/ui/config/ConfigGeneral.qml:71
+#: ../contents/config/config.qml
+msgid "General"
+msgstr "Geral"
+
+#: ../contents/config/config.qml
+msgid "Lists and grids"
+msgstr "Listas e grades"
+
+#: ../contents/ui/config/ConfigGeneral.qml
 msgid "Icon:"
 msgstr "Ícone:"
 
-#: contents/ui/config/ConfigGeneral.qml:151
+#: ../contents/ui/config/ConfigGeneral.qml
 msgctxt "@item:inmenu Open icon chooser dialog"
 msgid "Choose…"
 msgstr "Escolher…"
 
-#: contents/ui/config/ConfigGeneral.qml:156
+#: ../contents/ui/config/ConfigGeneral.qml
 msgctxt "@item:inmenu Reset icon to default"
 msgid "Clear Icon"
 msgstr "Limpar ícone"
 
-#: contents/ui/config/ConfigGeneral.qml:167
+#: ../contents/ui/config/ConfigGeneral.qml
 msgid "Indicator:"
 msgstr "Indicador:"
 
-#: contents/ui/config/ConfigGeneral.qml:168
-#: contents/ui/config/ConfigGeneral.qml:202
-#: contents/ui/config/ConfigGeneral.qml:221
-#: contents/ui/config/ConfigGeneral.qml:327
+#: ../contents/ui/config/ConfigGeneral.qml
 msgid "Enabled"
 msgstr "Ativado"
 
-#: contents/ui/config/ConfigGeneral.qml:179
+#: ../contents/ui/config/ConfigGeneral.qml
 msgid "Indicator Color:"
 msgstr "Cor do indicador:"
 
-#: contents/ui/config/ConfigGeneral.qml:190
+#: ../contents/ui/config/ConfigGeneral.qml
 msgid "Please choose a color"
 msgstr "Escolha uma cor"
 
-#: contents/ui/config/ConfigGeneral.qml:201
+#: ../contents/ui/config/ConfigGeneral.qml
 msgid "Greeting:"
 msgstr "Saudação:"
 
-#: contents/ui/config/ConfigGeneral.qml:212
+#: ../contents/ui/config/ConfigGeneral.qml
 msgid "Custom Greeting Text:"
 msgstr "Texto de saudação personalizado:"
 
-#: contents/ui/config/ConfigGeneral.qml:213
+#: ../contents/ui/config/ConfigGeneral.qml
 msgid "No custom greeting set"
 msgstr "Nenhuma saudação personalizada definida"
 
-#: contents/ui/config/ConfigGeneral.qml:220
+#: ../contents/ui/config/ConfigGeneral.qml
 msgid "Glow"
 msgstr "Brilho"
 
-#: contents/ui/config/ConfigGeneral.qml:229
+#: ../contents/ui/config/ConfigGeneral.qml
 msgid "Glow color:"
 msgstr "Cor do brilho:"
 
-#: contents/ui/config/ConfigGeneral.qml:232
+#: ../contents/ui/config/ConfigGeneral.qml
 msgid "Purple (Default)"
 msgstr "Roxo (padrão)"
 
-#: contents/ui/config/ConfigGeneral.qml:233
+#: ../contents/ui/config/ConfigGeneral.qml
 msgid "Blue"
 msgstr "Azul"
 
-#: contents/ui/config/ConfigGeneral.qml:234
+#: ../contents/ui/config/ConfigGeneral.qml
 msgid "Red"
 msgstr "Vermelho"
 
-#: contents/ui/config/ConfigGeneral.qml:243
+#: ../contents/ui/config/ConfigGeneral.qml
 msgid "Launcher Positioning:"
 msgstr "Posicionamento do launcher:"
 
-#: contents/ui/config/ConfigGeneral.qml:245
+#: ../contents/ui/config/ConfigGeneral.qml
 msgid "Default"
 msgstr "Padrão"
 
-#: contents/ui/config/ConfigGeneral.qml:246
+#: ../contents/ui/config/ConfigGeneral.qml
 msgid "Horizontal Center"
 msgstr "Centro horizontal"
 
-#: contents/ui/config/ConfigGeneral.qml:247
+#: ../contents/ui/config/ConfigGeneral.qml
 msgid "Screen Center"
 msgstr "Centro da tela"
 
-#: contents/ui/config/ConfigGeneral.qml:260
+#: ../contents/ui/config/ConfigGeneral.qml
 msgid "Floating"
 msgstr "Flutuante"
 
-#: contents/ui/config/ConfigGeneral.qml:269
+#: ../contents/ui/config/ConfigGeneral.qml
 msgid "Offset Screen Edge (0 is Default):"
 msgstr "Deslocamento da borda da tela (0 é o padrão):"
 
-#: contents/ui/config/ConfigGeneral.qml:281
+#: ../contents/ui/config/ConfigGeneral.qml
 msgid "Offset Panel (0 is Default):"
 msgstr "Deslocamento do painel (0 é o padrão):"
 
-#: contents/ui/config/ConfigGeneral.qml:295
+#: ../contents/ui/config/ConfigGeneral.qml
 msgid "Pinned applications Page:"
 msgstr "Página de aplicativos fixados:"
 
-#: contents/ui/config/ConfigGeneral.qml:297
+#: ../contents/ui/config/ConfigGeneral.qml
 msgid "Favorites (Default)"
 msgstr "Favoritos (padrão)"
 
-#: contents/ui/config/ConfigGeneral.qml:298
+#: ../contents/ui/config/ConfigGeneral.qml
 msgid "Recent Applications"
 msgstr "Aplicativos recentes"
 
-#: contents/ui/config/ConfigGeneral.qml:303
+#: ../contents/ui/config/ConfigGeneral.qml
 msgid "Default Page:"
 msgstr "Página padrão:"
 
-#: contents/ui/config/ConfigGeneral.qml:305
+#: ../contents/ui/config/ConfigGeneral.qml
 msgid "All Applications (Default)"
 msgstr "Todos os aplicativos (padrão)"
 
-#: contents/ui/config/ConfigGeneral.qml:306
+#: ../contents/ui/config/ConfigGeneral.qml
 msgid "Developement"
 msgstr "Desenvolvimento"
 
-#: contents/ui/config/ConfigGeneral.qml:307
+#: ../contents/ui/config/ConfigGeneral.qml
 msgid "Games"
 msgstr "Jogos"
 
-#: contents/ui/config/ConfigGeneral.qml:308
+#: ../contents/ui/config/ConfigGeneral.qml
 msgid "Graphics"
 msgstr "Gráficos"
 
-#: contents/ui/config/ConfigGeneral.qml:309
+#: ../contents/ui/config/ConfigGeneral.qml
 msgid "Internet"
 msgstr "Internet"
 
-#: contents/ui/config/ConfigGeneral.qml:310
+#: ../contents/ui/config/ConfigGeneral.qml
 msgid "Multimedia"
 msgstr "Multimídia"
 
-#: contents/ui/config/ConfigGeneral.qml:311
+#: ../contents/ui/config/ConfigGeneral.qml
 msgid "Office"
 msgstr "Escritório"
 
-#: contents/ui/config/ConfigGeneral.qml:312
+#: ../contents/ui/config/ConfigGeneral.qml
 msgid "Science & Math"
 msgstr "Ciência e matemática"
 
-#: contents/ui/config/ConfigGeneral.qml:313
+#: ../contents/ui/config/ConfigGeneral.qml
 msgid "Settings"
 msgstr "Configurações"
 
-#: contents/ui/config/ConfigGeneral.qml:314
+#: ../contents/ui/config/ConfigGeneral.qml
 msgid "System"
 msgstr "Sistema"
 
-#: contents/ui/config/ConfigGeneral.qml:315
+#: ../contents/ui/config/ConfigGeneral.qml
 msgid "Utilities"
 msgstr "Utilitários"
 
-#: contents/ui/config/ConfigGeneral.qml:316
+#: ../contents/ui/config/ConfigGeneral.qml
 msgid "Lost & Found"
 msgstr "Achados e perdidos"
 
-#: contents/ui/config/ConfigGeneral.qml:326
+#: ../contents/ui/config/ConfigGeneral.qml
 msgid "Use system font settings"
 msgstr "Usar configurações de fonte do sistema"
 
-#: contents/ui/config/ListAndGrid.qml:17
+#: ../contents/ui/config/ListAndGrid.qml
 msgid "Lists:"
 msgstr "Listas:"
 
-#: contents/ui/config/ListAndGrid.qml:18
+#: ../contents/ui/config/ListAndGrid.qml
 msgid "Compact list items"
 msgstr "Itens de lista compactos"
 
-#: contents/ui/config/ListAndGrid.qml:23
+#: ../contents/ui/config/ListAndGrid.qml
 msgid "All applications view:"
 msgstr "Visualização de todos os aplicativos:"
 
-#: contents/ui/config/ListAndGrid.qml:24
+#: ../contents/ui/config/ListAndGrid.qml
 msgid "show items in grid"
 msgstr "mostrar itens em grade"
 
-#: contents/ui/config/ListAndGrid.qml:29
+#: ../contents/ui/config/ListAndGrid.qml
 msgid "Grid icon size:"
 msgstr "Tamanho dos ícones da grade:"
 
-#: contents/ui/config/ListAndGrid.qml:30
+#: ../contents/ui/config/ListAndGrid.qml
 msgid "Small"
 msgstr "Pequeno"
 
-#: contents/ui/config/ListAndGrid.qml:30
+#: ../contents/ui/config/ListAndGrid.qml
 msgid "Medium"
 msgstr "Médio"
 
-#: contents/ui/config/ListAndGrid.qml:30
+#: ../contents/ui/config/ListAndGrid.qml
 msgid "Large"
 msgstr "Grande"
 
-#: contents/ui/config/ListAndGrid.qml:30
+#: ../contents/ui/config/ListAndGrid.qml
 msgid "Huge"
 msgstr "Enorme"
 
-#: contents/ui/config/ListAndGrid.qml:38
+#: ../contents/ui/config/ListAndGrid.qml
 msgid "Number of columns in grid"
 msgstr "Número de colunas na grade"
 
-#: contents/ui/config/ListAndGrid.qml:46
+#: ../contents/ui/config/ListAndGrid.qml
 msgid "Number of rows in grid"
 msgstr "Número de linhas na grade"
 
-#: contents/ui/Greeting.qml:9
+#: ../contents/ui/Greeting.qml
 msgid "Hi, %1"
 msgstr "Olá, %1"
 
-#: contents/ui/Greeting.qml:9
+#: ../contents/ui/Greeting.qml
 msgid "%1@%2"
 msgstr "%1@%2"
 
-#: contents/ui/RunnerList.qml:52
+#: ../contents/ui/main.qml
+msgid "Edit Applications…"
+msgstr "Editar aplicativos…"
+
+#: ../contents/ui/MainView.qml
+msgid "Favorite Apps"
+msgstr "Aplicativos favoritos"
+
+#: ../contents/ui/MainView.qml
+msgid "Recent Apps"
+msgstr "Aplicativos recentes"
+
+#: ../contents/ui/MainView.qml
+msgid "Back"
+msgstr "Voltar"
+
+#: ../contents/ui/MainView.qml
+msgid "All apps"
+msgstr "Todos os aplicativos"
+
+#: ../contents/ui/RunnerList.qml
 msgctxt "@info:status"
 msgid "No matches"
 msgstr "Nenhum resultado"
 
-#: contents/ui/main.qml:203
-msgid "Edit Applications…"
-msgstr "Editar aplicativos…"
-
-#: contents/ui/MainView.qml:155
-msgid "Favorite Apps"
-msgstr "Aplicativos favoritos"
-
-#: contents/ui/MainView.qml:155
-msgid "Recent Apps"
-msgstr "Aplicativos recentes"
-
-#: contents/ui/MainView.qml:202
-msgid "Back"
-msgstr "Voltar"
-
-#: contents/ui/MainView.qml:202
-msgid "All apps"
-msgstr "Todos os aplicativos"
-
-#: contents/ui/SearchBar.qml:34
+#: ../contents/ui/SearchBar.qml
 msgid "Search..."
 msgstr "Pesquisar…"
