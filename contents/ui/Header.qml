@@ -137,7 +137,10 @@ Item {
 
           text: model.display
           icon: model.decoration
-          onClicked: filteredMenuItemsModel.trigger(index)
+          onClicked: {
+            root.toggle();
+            filteredMenuItemsModel.trigger(index);
+          }
       }
       onObjectAdded: (index, object) => contextMenu.addMenuItem(object)
       onObjectRemoved: (index, object) => contextMenu.removeMenuItem(object)
