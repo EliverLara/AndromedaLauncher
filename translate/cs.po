@@ -1,4 +1,4 @@
-# Translation of AndromedaLauncher in LANGUAGE
+# Translation of AndromedaLauncher in cs
 # Copyright (C) 2026
 # This file is distributed under the same license as the AndromedaLauncher package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
