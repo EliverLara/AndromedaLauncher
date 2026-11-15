@@ -19,31 +19,31 @@ msgstr ""
 
 #: ../metadata.json
 msgid "Andromeda Launcher"
-msgstr ""
+msgstr "Lanceur Andromeda"
 
 #: ../metadata.json
 msgid "A modern Launcher for plasma!"
-msgstr ""
+msgstr "Un lanceur moderne pour Plasma !"
 
 #: ../contents/code/tools.js
 msgid "Remove from Favorites"
-msgstr ""
+msgstr "Retirer des favoris"
 
 #: ../contents/code/tools.js
 msgid "Add to Favorites"
-msgstr ""
+msgstr "Ajouter aux favoris"
 
 #: ../contents/code/tools.js
 msgid "On All Activities"
-msgstr ""
+msgstr "Sur toutes les activités"
 
 #: ../contents/code/tools.js
 msgid "On the Current Activity"
-msgstr ""
+msgstr "Sur l'activité actuelle"
 
 #: ../contents/code/tools.js
 msgid "Show in Favorites"
-msgstr ""
+msgstr "Affichers dans les favoris"
 
 #: ../contents/config/config.qml
 msgid "General"
@@ -51,7 +51,7 @@ msgstr "Général"
 
 #: ../contents/config/config.qml
 msgid "Lists and grids"
-msgstr ""
+msgstr "Listes et grilles"
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid "Icon:"
@@ -60,12 +60,12 @@ msgstr "Icône:"
 #: ../contents/ui/config/ConfigGeneral.qml
 msgctxt "@item:inmenu Open icon chooser dialog"
 msgid "Choose…"
-msgstr ""
+msgstr "Choisir..."
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgctxt "@item:inmenu Reset icon to default"
 msgid "Clear Icon"
-msgstr ""
+msgstr "Effacer l'icône"
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid "Indicator:"
@@ -97,23 +97,23 @@ msgstr "Aucun message d'accueil personnalisé défini"
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid "Glow"
-msgstr ""
+msgstr "Brillance"
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid "Glow color:"
-msgstr ""
+msgstr "Couleur de brillance"
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid "Purple (Default)"
-msgstr ""
+msgstr "Violet (Par défaut)"
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid "Blue"
-msgstr ""
+msgstr "Bleu"
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid "Red"
-msgstr ""
+msgstr "Rouge"
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid "Launcher Positioning:"
@@ -145,15 +145,15 @@ msgstr "Décalage par rapport à la barre de tâche (0 est la valeur par défaut
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid "Pinned applications Page:"
-msgstr ""
+msgstr "Page d'applications épinglées:"
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid "Favorites (Default)"
-msgstr ""
+msgstr "Favoris (Défault)"
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid "Recent Applications"
-msgstr ""
+msgstr "Applications récentes"
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid "Default Page:"
@@ -185,7 +185,7 @@ msgstr "Multimédia"
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid "Office"
-msgstr "Office"
+msgstr "Bureautique"
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid "Science & Math"
@@ -209,63 +209,63 @@ msgstr "Lost & Found"
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid "Use system font settings"
-msgstr ""
+msgstr "Utiliser la police du système"
 
 #: ../contents/ui/config/ListAndGrid.qml
 msgid "Lists:"
-msgstr ""
+msgstr "Listes"
 
 #: ../contents/ui/config/ListAndGrid.qml
 msgid "Compact list items"
-msgstr ""
+msgstr "réduire la liste d'éléments"
 
 #: ../contents/ui/config/ListAndGrid.qml
 msgid "All applications view:"
-msgstr ""
+msgstr "Vue dans toutes les applications:"
 
 #: ../contents/ui/config/ListAndGrid.qml
 msgid "show items in grid"
-msgstr ""
+msgstr "montrer les éléments sous forme de grille "
 
 #: ../contents/ui/config/ListAndGrid.qml
 msgid "Grid icon size:"
-msgstr ""
+msgstr "Taille d'icone dans la grille"
 
 #: ../contents/ui/config/ListAndGrid.qml
 msgid "Small"
-msgstr ""
+msgstr "Petit"
 
 #: ../contents/ui/config/ListAndGrid.qml
 msgid "Medium"
-msgstr ""
+msgstr "Moyen"
 
 #: ../contents/ui/config/ListAndGrid.qml
 msgid "Large"
-msgstr ""
+msgstr "Large"
 
 #: ../contents/ui/config/ListAndGrid.qml
 msgid "Huge"
-msgstr ""
+msgstr "Énorme"
 
 #: ../contents/ui/config/ListAndGrid.qml
 msgid "Number of columns in grid"
-msgstr ""
+msgstr "Nombre de colonnes dans la grille"
 
 #: ../contents/ui/config/ListAndGrid.qml
 msgid "Number of rows in grid"
-msgstr ""
+msgstr "Nombre de lignes dans la grille"
 
 #: ../contents/ui/Greeting.qml
 msgid "Hi, %1"
-msgstr ""
+msgstr "Bonjour, %1"
 
 #: ../contents/ui/Greeting.qml
 msgid "%1@%2"
-msgstr ""
+msgstr "%1@%2"
 
 #: ../contents/ui/main.qml
 msgid "Edit Applications…"
-msgstr ""
+msgstr "Editer les applications "
 
 #: ../contents/ui/MainView.qml
 msgid "Favorite Apps"
@@ -273,15 +273,15 @@ msgstr "Applications préférées"
 
 #: ../contents/ui/MainView.qml
 msgid "Recent Apps"
-msgstr ""
+msgstr "Applications récentes"
 
 #: ../contents/ui/MainView.qml
 msgid "Back"
-msgstr ""
+msgstr "Retour"
 
 #: ../contents/ui/MainView.qml
 msgid "All apps"
-msgstr ""
+msgstr "Toutes les applications"
 
 #: ../contents/ui/RunnerList.qml
 msgctxt "@info:status"
@@ -290,7 +290,7 @@ msgstr ""
 
 #: ../contents/ui/SearchBar.qml
 msgid "Search..."
-msgstr ""
+msgstr "Rechercher..."
 
 #~ msgid "Power Off"
 #~ msgstr "Éteindre"
